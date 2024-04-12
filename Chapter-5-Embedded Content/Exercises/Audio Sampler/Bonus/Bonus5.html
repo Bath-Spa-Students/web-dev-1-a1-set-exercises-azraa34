@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Sampler</title>
+    <link rel="stylesheet" href="Bonus5.css"> <!-- Link to external CSS file -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sample Bank 1</h1> <!-- Heading for the soundboard -->
+
+        <!-- Audio Samples Section -->
+        <div class="sound-buttons">
+            <button class="sample-btn" data-src="ah-ha.mp3">Ah-ha!</button>
+            <button class="sample-btn" data-src="back-of-the-net.mp3">Back of the net!</button>
+            <button class="sample-btn" data-src="bangoutoforder.mp3">Bang out of order!</button>
+            <button class="sample-btn" data-src="dan.mp3">Dan!</button>
+            <button class="sample-btn" data-src="emailoftheevening.mp3">Email of the evening!</button>
+            <button class="sample-btn" data-src="hellopartridge.mp3">Hello Partridge!</button>
+            <button class="sample-btn" data-src="iateascotchegg.mp3">I ate a scotch egg!</button>
+            <button class="sample-btn" data-src="imconfused.mp3">I'm confused.</button>
+        </div>
+
+        <!-- Text-to-Speech Section -->
+        <div class="text-to-speech">
+            <textarea id="text-to-speech-input" placeholder="Type text here..."></textarea>
+            <button onclick="convertTextToSpeech()">Say It</button>
+        </div>
+    </div>
+
+    <script src="Bonus5.js"></script> <!-- Link to external JavaScript file for audio functionality -->
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background1.jpg'); /* Replace 'background-image.jpg' with your image path */
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: brown; /* Dark pink */
+    background-color: white;
+    margin-bottom: 80px;
+    padding: 12px;
+}
+
+.sound-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.sample-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; /* Increase padding for larger buttons */
+    background-color: white;
+    color: #333;
+    border: 6px solid black;
+    border-radius: 10px;
+    font-size: 24px; /* Increase font size for button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, /* Add transition for color change */
+}
+
+.sample-btn:hover {
+    background-color: yellow; /* yellow on hover */
+    color: white; /* Text color changes to white on hover */
+}
+
+/* Responsive layout adjustments for smaller screens */
+@media (max-width: 768px) {
+    .sound-buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
