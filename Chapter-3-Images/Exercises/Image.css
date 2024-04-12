@@ -1,0 +1,38 @@
+/* Styling for all images */
+.image-container {
+    text-align: center; /* Center-align the image container */
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Apply grayscale filter to specific image */
+#victorian-dress {
+    filter: grayscale(50%) brightness(90%);
+}
+
+/* Additional styling for individual images (optional) */
+#victorian-interior {
+    filter: sepia(40%) brightness(70%);
+}
+
+#victorian-castle {
+    filter: contrast(150%) brightness(80%);
+}
+
+/* Soft bluish background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2f1; /* Soft bluish background color */
+    padding: 20px;
+}
