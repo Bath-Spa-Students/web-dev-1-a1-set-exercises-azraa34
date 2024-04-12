@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 20px;
+    padding: 10px 20px;
+    background-color: lavenderblush;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Center align container horizontally */
+    text-align: justify;
+}
+
+h1 {
+    color: hotpink;
+    text-align: center; /* Center align the main heading */
+}
+
+h2 {
+    color: saddlebrown;
+    margin-left: 20px;
+}
+
+p {
+    color: black;
+    margin-left: 20px;
+}
+
+ul, ol {
+    margin-left: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.brownie-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.brownie-images img {
+    margin: 0 10px; /* Add horizontal margin between images */
+}

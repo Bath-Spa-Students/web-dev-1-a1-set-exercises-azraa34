@@ -1,0 +1,91 @@
+/* Reset margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: relative; /* Set header to relative position */
+    z-index: 1; /* Ensure header is above other elements */
+}
+
+/* Style the main title */
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #555;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px 0;
+    position: relative; /* Set navbar to relative position */
+    z-index: 0; /* Ensure navbar is below header */
+}
+
+/* Style navigation bar links */
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+/* Change color of navigation bar links on hover */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Style the main content sections */
+section {
+    padding: 20px;
+}
+
+/* Style secondary headings */
+h2 {
+    color: #666;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Style articles or main content blocks */
+article {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style preformatted text blocks */
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
