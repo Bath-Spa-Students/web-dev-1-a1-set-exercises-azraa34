@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Plate - Game Overview</title>
+    <link rel="stylesheet" href="exercise2.1.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links to different sections within the page -->
+                <li><a href="pages/plot.html">Plot</a></li>
+                <li><a href="pages/details.html">Details</a></li>
+                <li><a href="pages/characters.html">Characters</a></li>
+                <li><a href="pages/reviews.html">Reviews</a></li>
+                <li><a href="pages/endings.html">Endings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section: Introduction -->
+        <section id="intro" class="card">
+            <h1>Dead Plate</h1>
+            <p>Dead Plate is a 2D indie horror game developed by RachelDrawsThis and Ekrix, featuring composition and sound design by BKalengar. The game was created using RPG Maker and combines classic restaurant tycoon mechanics with visual novel elements and point-and-click exploration.</p>
+            <a href="https://racheldrawsthis.itch.io/dead-plate" target="_blank" class="button">Download Dead Plate on Itch.io</a>
+        </section>
+    </main>
+
+    <!-- JavaScript function to toggle spoiler content visibility -->
+    <script>
+        function toggleSpoilerContent() {
+            var spoilerContent = document.getElementById('spoilerContent');
+            spoilerContent.style.display = spoilerContent.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>

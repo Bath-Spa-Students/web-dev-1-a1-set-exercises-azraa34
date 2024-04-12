@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Plate - Endings</title>
+    <link rel="stylesheet" href="../exercise2.1.css"> <!-- Link to external CSS file (adjust path as needed) -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../home.html">Introduction</a></li>
+                <li><a href="plot.html">Plot</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="endings.html">Endings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section: Endings -->
+        <section id="endings" class="card">
+            <h2>Endings</h2>
+            <!-- Spoiler toggle for revealing endings -->
+            <div class="spoiler" onclick="toggleSpoilerContent()">Spoiler: Endings</div>
+            <div class="spoiler-content" id="spoilerContent" style="display: none;">
+                <!-- Explanation of the different game endings -->
+                <p>Dead Plate has <strong>4 different endings</strong>. To unlock Endings 2-4, players must trigger the <strong>Phone Call event</strong> that occurs on the night of Day 6.</p>
+                <p>To achieve certain endings, specific actions need to be taken during gameplay:</p>
+                <p><strong>Requirements:</strong></p>
+                <ul>
+                    <li>Take out trash on Day 3 (Cutscene)</li>
+                    <li>Walk in the kitchen past a minute mark on Day 4 (Cutscene)</li>
+                    <li>Talk with Vince on Day 4 ("Can you give me a raise" and "Do you like your job" options)</li>
+                    <li>Talk with Vince on Day 5 ("What's your favorite food")</li>
+                    <li>Go to Vince's office during Day 5 Night Restaurant segment and interact with the trash can</li>
+                    <li>Get the phone call on the night of Day 6 and answer yes</li>
+                </ul>
+
+                <!-- Individual Endings -->
+                <h2>Ending 1: Table for One</h2>
+                <p>Complete shifts entirely from Day 1 to Day 7.</p>
+                <h2>Ending 2: Best-Served Cold</h2>
+                <p>Start Day 7 shift without equipping Matches. When the shift starts, enter the freezer.</p>
+                <h2>Ending 3: Best-Served Hot</h2>
+                <p>Start Day 7 shift with Matches equipped. When the shift starts, enter the freezer.</p>
+                <h2>Ending 4: Abattoir</h2>
+                <p>Fail any of the Quick Time Events (QTE) during the final chase.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript function to toggle spoiler content visibility -->
+    <script>
+        function toggleSpoilerContent() {
+            var spoilerContent = document.getElementById('spoilerContent');
+            spoilerContent.style.display = spoilerContent.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
