@@ -1,0 +1,137 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Serif font family */
+    color: #000; /* Black text color */
+    background-color: #f0f8ff; /* Light bluish background */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1e3799; /* Dark blue color for page title */
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Dark gray color for nav links */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px; /* Adjust the font size as needed */
+}
+
+ul, li {
+    margin-left: 10px;
+} 
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 12px; /* Adjust padding for height and width */
+    border: 1px solid #ccc; /* Example border styling */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 15px;
+}
+
+.search-form button {
+    padding: 15px 20px;
+    background-color: #1e3799; /* Dark blue color for search button */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text color for search button */
+    cursor: pointer;
+}
+
+/* Main Content Columns */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #1e3799; /* Dark blue border */
+    border-radius: 8px;
+    margin-right: 20px; /* Gap between columns */
+    margin-top: 20px;
+}
+
+/* First column */
+.schedule {
+    background-color: #d6eaf8; /* Light blue background */
+}
+
+/* Second column */
+.deadlines {
+    background-color: #aed6f1; /* Lighter blue background */
+}
+
+/* Third column */
+.resources {
+    background-color: #85c1e9; /* Even lighter blue background */
+}
+
+.column h2 {
+    color: #1e3799; /* Dark blue color for section headings */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Demo Projects Section */
+.demos {
+    margin-top: 40px;
+}
+
+.demo {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light bluish background for demos */
+    border: 2px solid #1e3799; /* Dark blue border */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.demo h3 {
+    color: #1e3799; /* Dark blue color for demo titles */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.demo p {
+    color: #333; /* Dark gray color for demo descriptions */
+}
