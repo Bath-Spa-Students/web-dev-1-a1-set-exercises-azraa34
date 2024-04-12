@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guessing Game</title>
+    <link rel="stylesheet" href="Game.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>RGB Color Guessing Game</h1> <!-- Game title -->
+        <div id="colorDisplay" class="color-display"></div> <!-- Container to display the RGB color to guess -->
+        <div id="optionsContainer" class="options-container">
+            <!-- Color options will be dynamically generated here -->
+        </div>
+        <p id="message"></p> <!-- Display messages (e.g., correct/incorrect) -->
+        <p id="score">Score: <span id="scoreValue">0</span></p> <!-- Display current score -->
+        <p id="timer">Time left: <span id="timeValue">30</span> seconds</p> <!-- Display countdown timer -->
+        <button id="resetButton" onclick="resetGame()">Reset Game</button> <!-- Reset button -->
+    </div>
+
+    <script src="Game.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

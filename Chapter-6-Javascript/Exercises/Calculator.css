@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255); /* Light yellowish-golden background */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator-container {
+    background-color: rgb(220, 186, 99); /* Yellowish-golden background for calculator */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.petrol-cost-container {
+    background-color: beige; /* Beige background for petrol cost section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-container {
+    background-color: #fff; /* White background for form elements */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="number"], button {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #545252;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus, button:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    background-color: #6d4c41; /* Brown background for Calculate button */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: crimson; /* Darker brown on hover */
+}
+
+#totalCost {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
